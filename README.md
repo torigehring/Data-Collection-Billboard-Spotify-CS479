@@ -10,7 +10,7 @@ Collected on 16 February 2020 by Victoria Gehring
 ## The Data on GitHub is a subset of the data due to size constraints
 
 ## File name is in the form:
-audio_features<year-of-song>_<song-title>.json
+audio_featuresyear-of-song_song-title.json
 
 ## References
 Billboard Hot 100 Web Scraper. GitHub, Inc 2020. Retrieved from https://github.com/jsubroto/billboard-hot-100-web-scraper
