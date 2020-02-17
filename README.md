@@ -8,9 +8,19 @@ See metadata folder.
 Collected on 16 February 2020 by Victoria Gehring
 
 ## The Data on GitHub is a subset of the data due to size constraints
+Originally the plan was to include 100 songs from years 2015-2019
+This repository only contains roughly 30 songs from 2019
+The rest are kept locally
 
 ## File name is in the form:
 audio_featuresyear-of-song_song-title.json
+
+## Directory Structure
+/metadata /data /scripts
+  /data: top_songs_year/
+    /top_songs_year: audio_featuresyear-of-song_song-title.json (100 per year)
+  /metadata: all metadata associated with data collection
+  /scripts: all code involved with data collection
 
 ## References
 Billboard Hot 100 Web Scraper. GitHub, Inc 2020. Retrieved from https://github.com/jsubroto/billboard-hot-100-web-scraper
