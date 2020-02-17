@@ -1,0 +1,91 @@
+<mets:mets xmlns:premis="info:lc/xmlns/premis-v2/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mets="http://www.loc.gov/METS/" xmlns:ead="urn:isbn:1-931666-22-9" xmlns:ns2="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns1="info:lc/xmlns/premis-v2" xmlns:ns4="http://cosimo.stanford.edu/sdr/metsrights/" xmlns:ns3="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns6="http://www.loc.gov/mods/v3/" xmlns:rts="http://cosimo.stanford.edu/sdr/metsrights/" xmlns:ns5="http://www.loc.gov/METS/" xmlns:ns7="http://www.loc.gov/mix/v20" xmlns:ns9="http://www.loc.gov/mods/v3" xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xlink="http://www.w3.org/1999/xlink" PROFILE="http://www.loc.gov/mets/profiles/00000013.xml" LABEL="Data Collection Billboard Spotify CS479" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd http://cosimo.stanford.edu/sdr/metsrights/ http://www.loc.gov/standards/rights/METSRights.xsd info:lc/xmlns/premis-v2/ http://www.loc.gov/standards/premis/premis.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+    <mets:metsHdr LASTMODDATE="2020-02-16T1:30:33" CREATEDATE="2020-02-15T11:30:01">
+        <mets:agent TYPE="INDIVIDUAL" ROLE="ARCHIVIST">
+            <mets:name>Victoria Gehring</mets:name>
+        </mets:agent>
+    </mets:metsHdr>
+    <mets:dmdSec ID="DM1">
+        <mets:mdWrap MDTYPE="MODS" LABEL="Data Collection Billboard Spotify CS479">
+            <mets:xmlData>
+            <mods:mods>
+                <mods:titleInfo>
+                    <mods:title>
+                        Data Collection Billboard Spotify CS479
+                    </mods:title>
+                </mods:titleInfo>
+                <mods:name type="personal">
+                    <mods:namePart>Gehring, Victoria</mods:namePart>
+                    <mods:role>
+                        <mods:roleTerm type="text">Archivist</mods:roleTerm>
+                    </mods:role>
+                </mods:name>
+                <mods:typeOfResource>text</mods:typeOfResource>
+                <mods:genre authority="aat">data collection</mods:genre>
+                <mods:originInfo>
+                    <mods:place>
+                        <mods:placeTerm type="text">
+                            University of Idaho Moscow, Idaho
+                        </mods:placeTerm>
+                    </mods:place>
+                    <mods:dateCreated>February 2020</mods:dateCreated>
+                </mods:originInfo>
+                <mods:language>
+                    <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+                </mods:language>
+                <mods:physicalDescription>
+                <mods:extent>32 p</mods:extent>
+                </mods:physicalDescription>
+            </mods:mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:amdSec>
+    <mets:rightsMD ID="RMD1">
+        <mets:mdWrap OTHERMDTYPE="METSRights" MDTYPE="OTHER">
+            <mets:xmlData>
+                <rts:RightsDeclarationMD RIGHTSCATEGORY="COPYRIGHTED">
+                    <rts:RightsHolder>
+                        <rts:RightsHolderName>The author(s)</rts:RightsHolderName>
+                        <rts:RightsHolderContact>
+                            <rts:RightsHolderContactAddress>
+                                230 Baker St. Moscow Idaho
+                            </rts:RightsHolderContactAddress>
+                        </rts:RightsHolderContact>
+                    </rts:RightsHolder>
+                         <rts:Context CONTEXTCLASS="GENERAL PUBLIC">
+                            <rts:Constraints>
+                                <rts:ConstraintDescription>
+Transmission or reproduction of materials protected by copyright beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owner. Responsibility for any use rests exclusively with the user.
+                                </rts:ConstraintDescription>
+                            </rts:Constraints>
+                        </rts:Context>
+                    </rts:RightsDeclarationMD>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:rightsMD>
+    </mets:amdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="metadata">
+            <mets:file MIMETYPE="application/pdf" GROUPID="GID1" SEQ="1" ID="FID1">
+                <mets:FLocat xlink:href="" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="scripts">
+            <mets:file GROUPID="GID1" SEQ="1" ID="FID2">
+                <mets:FLocat xlink:href="" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="data">
+            <mets:file GROUPID="GID1" SEQ="1" ID="FID3">
+                <mets:FLocat xlink:href="" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap>
+        <mets:div TYPE="text" ADMID="RMD1" DMDID="DM1" LABEL="Data Collection Billboard Spotify CS479">
+            <mets:fptr FILEID="FID1"/>
+            <mets:fptr FILEID="FID2"/>
+            <mets:fptr FILEID="FID3"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>
