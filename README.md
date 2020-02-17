@@ -16,11 +16,11 @@ The rest are kept locally
 audio_features[year-of-song]_[song-title].json
 
 ## Directory Structure
-/metadata /data /scripts
-  /data: top_songs_year/
-    /top_songs_year: audio_featuresyear-of-song_song-title.json (100 per year)
-  /metadata: all metadata associated with data collection
-  /scripts: all code involved with data collection
+metadata data scripts
+  data: top_songs_year
+    top_songs_year: audio_featuresyear-of-song_song-title.json (100 per year)
+  metadata: all metadata associated with data collection
+  scripts: all code involved with data collection
 
 ## References
 Billboard Hot 100 Web Scraper. GitHub, Inc 2020. Retrieved from https://github.com/jsubroto/billboard-hot-100-web-scraper
