@@ -8,7 +8,7 @@ See metadata folder.
 Collected on 16 February 2020 by Victoria Gehring
 
 ## View Full Dataset
-The full dataset includes 100 songs from years 2015-2019
+The full dataset includes 100 songs from years 2015-2019.
 View the full dataset at: https://drive.google.com/drive/folders/100FD9e0Gz_ECmXUMf8iykePOwg88Czeo?usp=sharing
 
 ## File naming convention:
