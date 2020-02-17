@@ -12,7 +12,7 @@ Originally the plan was to include 100 songs from years 2015-2019
 This repository only contains roughly 30 songs from 2019
 The rest are kept locally
 
-## File name is in the form:
+## File naming convention:
 audio_features[year-of-song]_[song-title].json
 
 ## Directory Structure
