@@ -7,10 +7,9 @@ This idea was inspired by the work of Sean Miller who collected data about songs
 See metadata folder.
 Collected on 16 February 2020 by Victoria Gehring
 
-## The Data on GitHub is a subset of the data due to size constraints
-Originally the plan was to include 100 songs from years 2015-2019
-This repository only contains roughly 30 songs from 2019
-The rest are kept locally
+## View Full Dataset
+The full dataset includes 100 songs from years 2015-2019
+View the full dataset at: https://drive.google.com/drive/folders/100FD9e0Gz_ECmXUMf8iykePOwg88Czeo?usp=sharing
 
 ## File naming convention:
 audio_features[year-of-song]_[song-title].json
