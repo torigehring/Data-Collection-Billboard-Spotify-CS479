@@ -13,7 +13,7 @@ This repository only contains roughly 30 songs from 2019
 The rest are kept locally
 
 ## File name is in the form:
-audio_featuresyear-of-song_song-title.json
+audio_features[year-of-song]_[song-title].json
 
 ## Directory Structure
 /metadata /data /scripts
